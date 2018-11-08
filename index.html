@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <!-- Include the stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>The Simple Weather App</title>
+</head>
+
+<body>
+  <header>
+    <button type="button" id="searchAgain">Search Again</button>
+    <h1>The Simple Weather App</h1>
+    <h3> Search by city for weather </h3>
+  </header>
+  <main>
+
+    <form>
+      <label for="city_name">Enter a City: </label>
+      <input type="text" name="search-term" id="search-keywords" placeholder="ex. Ottawa" />
+      <button type="submit" id="searchButton">Search</button>
+    </form>
+
+    <div id="info">
+    </div>
+
+  </main>
+
+  <div id="weatherIcons">
+    </div>
+
+
+  <footer>
+    <!-- Add footer content -->
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+
+
+<div class="crossfade" id="weatherBackground">
+  <figure></figure>
+  <figure></figure>
+  <figure></figure>
+  <figure></figure>
+  <figure></figure>
+</div>
+
+
+</html>
